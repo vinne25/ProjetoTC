@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View,TouchableOpacity , Image, Text, StyleSheet, Button} from 'react-native';
+import { View, TouchableOpacity, Image, Text, StyleSheet} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Pesquisar = ({ navigation }) => {

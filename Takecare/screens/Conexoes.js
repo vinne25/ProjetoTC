@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View,Image, TouchableOpacity,StyleSheet, Button, Text, FlatList} from 'react-native';
+import { View,Image,TouchableOpacity,StyleSheet, Text} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Conexoes = ({navigation}) => {
