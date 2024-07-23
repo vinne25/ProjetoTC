@@ -11,6 +11,7 @@ const Pesquisar = ({ navigation }) => {
           resizeMode="contain"
         />
         <Text style={styles.texto}>Pesquisar</Text>
+        <Text style={styles.texto2}>Use a barra de pesquisa para encontrar trabalho ou babás na sua area</Text>
         <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Conexões')}>
@@ -32,6 +33,9 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         marginBottom: 50
+    },
+    texto2:{
+      fontSize: 16,
     },
     img:{
         width: 100,
