@@ -11,7 +11,28 @@ const Pesquisar = ({ navigation }) => {
           resizeMode="contain"
         />
         <Text style={styles.texto}>Pesquisar</Text>
-        <Text style={styles.texto2}>Use a barra de pesquisa para encontrar trabalho ou babás na sua area</Text>
+        <View style={styles.row}>
+        <View
+        style={{
+          width: 15,
+          height: 15,
+          borderRadius: 100,
+          backgroundColor: '#0BBEE5',
+        }}/>
+        <Text style={styles.texto2}>Use a barra de pesquisa para
+        encontrar trabalho ou babás na sua area</Text>
+        </View>
+        <View style={styles.row2}>
+        <View
+        style={{
+          width: 15,
+          height: 15,
+          borderRadius: 100,
+          backgroundColor: '#0BBEE5',
+        }}/>
+        <Text style={styles.texto2}>Use os filtros para pesquisar baseados nas
+        suas necessidades</Text>
+        </View>
         <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Conexões')}>
@@ -28,14 +49,33 @@ const styles = StyleSheet.create({
         paddingTop: 20, 
       backgroundColor: '#fff',
     },
+    row: {
+      flexDirection: 'row',
+      justifyContent: 'space-between', // Espaçamento entre os objetos
+      alignItems: 'center', // Alinha os objetos verticalmente
+      paddingLeft: 20,
+      paddingRight: 20,
+      marginBottom: 10,
+    },
+    row2: {
+      flexDirection: 'row',
+      justifyContent: 'space-between', // Espaçamento entre os objetos
+      alignItems: 'center', // Alinha os objetos verticalmente
+      paddingLeft: 20,
+      paddingRight: 12,
+      marginBottom: 10,
+    },
     texto:{
         color: '#000000',
         fontSize: 24,
         fontWeight: 'bold',
-        marginBottom: 50
+        marginTop: 40,
+        marginBottom: 15,
     },
     texto2:{
       fontSize: 16,
+      color: '#000',
+      paddingLeft: 10,
     },
     img:{
         width: 100,
@@ -45,7 +85,7 @@ const styles = StyleSheet.create({
         position: 'absolute', //para posicioná-lo de forma independente do layout principal
         bottom: 30, // Distância da parte inferior da tela
         justifyContent: 'flex-end',
-        backgroundColor: '#87CEFA',
+        backgroundColor: '#0BBEE5',
         padding: 10,
         borderRadius: 15,
         height: 50,
