@@ -1,5 +1,5 @@
 import React from 'react';
-import { View,Image, TouchableOpacity, Text, Button, StyleSheet } from 'react-native';
+import { View,Image, TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 const Seguranca = ({ navigation }) => {
     return (

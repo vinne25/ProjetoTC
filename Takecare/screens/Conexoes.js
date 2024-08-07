@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import { View,Image,TouchableOpacity,StyleSheet, Text} from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+//import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Conexoes = ({navigation}) => {
     return (

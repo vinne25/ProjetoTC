@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { View, TouchableOpacity, Image, Text, StyleSheet} from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+//import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './style';
 
 const Pesquisar = ({ navigation }) => {
